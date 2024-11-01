@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVESELF</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .menu {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .menu a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #FF01C1;
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 24px;
+            text-align: center;
+        }
+        .info {
+            text-align: center;
+            font-size: 20px;
+        }
+        .translate {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="file:///F:/INICIO%20PAGINA1.html">INICIO</a>
+        <a href="file:///F:/tips.HTML">TIPS</a>
+        <a href="file:///F:/productos.HTML">PRODUCTOS</a>
+        <a href="file:///F:/contactos.html">CONTACTOS</a>
+        <a href="file:///F:/maquillaje1.html">MAQUILLAJE</a>
+        <a href="file:///F:/QUIENES%20SOMOS.html">¿QUIENES SOMOS?</a>
+        <a href="file:///C:/Users/pc1/Downloads/CUIDADO%20DE%20LA%20PIEL.html">CUIDADO DE LA PIEL</a>
+        <a href="file:///C:/Users/pc1/Desktop/plan.html">PLAN ESTRATEGICO</a>
+    </div>
+
+    <hr size="3" color="#FF01C1">
+
+    <div class="info">
+        <h2>TIPS</h2>
+        <p>
+            EN ESTE VIDEO UNA DE LAS MUJERES MÁS FAMOSAS DE LA INDUSTRIA EN LA ACTUALIDAD, JUNTO CON LA MARCA VOGUE, NOS DICE QUE LO MÁS IMPORTANTE PARA ELLA ES SIEMPRE TENER SU PIEL HIDRATADA. NOS HABLA SOBRE LOS PEPTIDOS, LOS CUALES NOS AYUDAN A PREVENIR EL ENVEJECIMIENTO Y LO IMPORTANTE QUE ES PREPARAR SU PIEL PARA OBTENER UN BUEN RESULTADO EN SU MAQUILLAJE.
+        </p>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/O_qgaOUR3Fo?si=_d34FGf0pFoK2COD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <div class="translate">
+        <h2>Selecciona tu idioma:</h2>
+        <select onchange="translatePage(this.value)">
+            <option value="">Selecciona</option>
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+        </select>
+    </div>
+
+    <script>
+        function translatePage(language) {
+            if (language === 'en') {
+                // Aquí puedes agregar la lógica para traducir el contenido al inglés
+                alert('Traducción al inglés no implementada.');
+            } else if (language === 'es') {
+                // Aquí puedes agregar la lógica para traducir al español
+                alert('Traducción al español no implementada.
